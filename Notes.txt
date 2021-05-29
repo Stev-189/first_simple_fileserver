@@ -1,0 +1,6 @@
+npm init -y
+npm i express multer mime-types 
+//multer para guardar el archivo y mime para saver que tipo de archivo es y su peso etc
+npm install nodemon --save-dev
+package()("dev":"nodemon src/index.js")
+npm i cors // por si quiero implementar ajax o otrea cosa 
